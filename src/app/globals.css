@@ -24,3 +24,36 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@layer utilities {
+  .font-moulin {
+    font-family: var(--font-moulin), sans-serif;
+  }
+  .font-neptune {
+    font-family: var(--font-neptune), sans-serif;
+  }
+}
+
+.font-moulin-italic {
+  font-family: "Moulin Italic", sans-serif;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Moulin Italic";
+  src: url("/fonts/Moulin-MediumItalic-Trial.otf") format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
