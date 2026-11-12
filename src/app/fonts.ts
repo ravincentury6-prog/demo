@@ -47,7 +47,7 @@ export const moulin = localFont({
 export const neptune = localFont({
   src: [
     {
-      path: "../../public/fonts/Neptune-ExtraLight.woff2",
+      path: "../../public/fonts/Neptune-Extralight.woff2",
       weight: "200",
       style: "normal",
     },
